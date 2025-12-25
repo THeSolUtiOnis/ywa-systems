@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: black;
+  color: #eaeaea;
+  font-family: monospace;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
+}
+
+#game {
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+#companionText {
+  margin-top: 20px;
+  color: #bdbdbd;
+  font-style: italic;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  background: #0f0f0f;
+  color: white;
+  border: 1px solid #444;
+  cursor: pointer;
+  text-align: left;
+}
+
+button:hover {
+  background: darkred;
+}
+
+#timer {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
