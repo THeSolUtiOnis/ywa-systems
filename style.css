@@ -50,3 +50,11 @@ button:hover {
   font-weight: bold;
   margin-top: 10px;
 }
+#mannequin {
+  position: absolute;
+  width: 200px;        
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  filter: contrast(1.1);
+  pointer-events: none;
+}
